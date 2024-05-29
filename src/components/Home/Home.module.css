@@ -1,0 +1,145 @@
+.section1{
+    background-color: hwb(252 31% 44%);
+    color: white;
+    padding: 3rem;
+    background-image: url('../../assets/bg2.jpg');
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.section2{
+    background-color: hwb(252 31% 44%);
+    color: white;
+    padding: 3rem;
+}
+
+.section1-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFE800;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 120px;
+    width: 500px;
+    color: black;
+    font-size: 16px;
+    margin-left: 80px;
+}
+
+.box2{
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 120px;
+    width: 500px;
+    color: black;
+    font-size: 16px;
+    margin-right: 80px;
+}
+
+.sectionheading{
+    display: flex;
+    align-items: center;
+}
+
+/***** Global Slide *****/
+.slide-right, .slide-left {
+    /* width: 100%; */
+  }
+  
+  /***** Slide Right *****/
+  .slide-right1 {
+    animation: 2s slide-right;
+  }
+
+  .slide-right2 {
+    animation: 2s slide-right;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+  }
+
+  .slide-right3 {
+    animation: 2s slide-right;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+  }
+  .slide-right4 {
+    animation: 2s slide-right;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+  }
+  @keyframes slide-right {
+    0% {
+        opacity:0;
+       
+      }
+      
+      100% {
+        opacity:1;
+       
+      }
+    from {
+      margin-left: -20%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  
+  /***** Slide Left *****/
+  .slide-left1 {
+    animation: 2s slide-left;
+    
+  }
+  .slide-left2 {
+    animation: 2s slide-left;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+  }
+
+  .slide-left3 {
+    animation: 2s slide-left;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+  }
+  .slide-left4 {
+    animation: 2s slide-left;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+  }
+  @keyframes slide-left {
+    0% {
+        opacity:0;
+       
+      }
+      
+      100% {
+        opacity:1;
+       
+      }
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+
+  .fade-in {
+    animation: fadeIn ease 10s;
+  }
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }

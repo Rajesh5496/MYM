@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+}
+
+.section1{
+    padding: 3rem;
+    /* background-image: url('../../assets/bg2.jpg'); */
+    background-color: rgb(24, 26, 27);;
+}
+
+.box1{
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: radial-gradient(50% 50% at 50% 50%, rgb(1, 118, 54) 0%, rgb(0, 102, 58) 100%);
+    background-color: initial;
+    color: rgb(232, 230, 227);
+}
+
+.box2{
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 10px;
+    /* margin-left: 20px; */
+}

@@ -7,7 +7,6 @@ import {
   InputAdornment,
   TextField,
 } from "@mui/material";
-import { Color } from "aws-cdk-lib/aws-cloudwatch";
 
 export default function Chitplans() {
   return (
